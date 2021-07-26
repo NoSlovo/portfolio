@@ -1,0 +1,439 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+	font-size: 20px;
+	color: red;
+}
+/*.......................................................................*/
+
+
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 44px;
+    position: relative;
+}
+
+
+
+.number{
+    position: absolute;
+    color:#969696 ;
+    width: 355px;
+    height: 16px;
+    left: 436px;
+    top: 14px;
+    margin-bottom: 1px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.login{
+    
+    margin-right: 400px;
+    padding-top: 13px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    box-sizing: border-box;
+    text-align: right;
+    color:#969696 ;
+}
+
+.logotype{
+    position: absolute;
+    height: 49px;
+    left: 405px;
+    top: 15px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 44px;
+
+    background-color: #0f0f0f;
+}
+
+.link{
+    padding-top: 36px;
+    text-align: right;
+    margin-right: 400px;
+    text-decoration: none;
+}
+
+.link_hover{
+    
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 36px;
+    padding-right: 20px;
+    padding-bottom: 28px;
+
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.link_hover:hover{
+    background-color:#1F1F1F ;
+}
+
+.content{
+    width: 100%;
+    height: 810px;
+    left: 0px;
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5));
+    background: url(/img/rectangle.png);
+    background-repeat: no-repeat;
+}
+
+.conteiner{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 800px;
+    top: 284px;
+    border: 4px solid #ffffff;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.logotype_two{
+    padding-left: 37px;
+    padding-right: 38px;
+    padding-top: 93px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 54px;
+    color: #ffffff;
+   
+}
+
+.line{
+    margin-top: 7px;
+    margin-right: 20px;
+    margin-left: 35px;
+    width:250px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.city{
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-left:35px;
+}
+
+.conteiner_text{
+    position: absolute;
+    width: 730px;
+    height: 96px;
+    left: 595px;
+    top: 684px;
+
+}
+
+.text{
+    text-align: center;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.season{
+    width: 1040px;
+    height: 730px;
+    left: 0px;
+    background: #000000;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.text_season{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 47,99px;
+    text-align: center;
+    padding-top: 93px;
+    padding-bottom: 50px;
+}
+
+.season_line{
+    width: 120px;
+    height: 0px;
+    margin-bottom: 50px;
+    border: 1px solid #ffffff;
+    margin-left: 460px;
+}
+
+.clock_block{
+    display: inline;
+}
+
+
+
+.season_clock1{
+    position: absolute;
+    width: 260px;
+    height: 325px;
+    margin-left: 80px;
+    background: #191B1C;
+    margin-bottom: 5px;
+
+}
+
+.clock_1{
+    width: 215px;
+    height: 214px;
+    left: 103px;
+    margin-top: 55px;
+    margin-left: 25px;
+}
+
+.season_clock2{
+    position: absolute;
+    width: 260px;
+    height: 325px;
+    left: 80px;
+    margin-left: 300px;
+
+    background: #191B1C;
+
+}
+
+.clock_2{
+    width: 215px;
+    height: 214px;
+    left: 103px;
+    margin-top: 55px;
+    margin-left: 23px;
+}
+
+.season_clock3{
+    
+    width: 260px;
+    height: 325px;
+    left: 80px;
+    margin-left: 680px;
+    background: #191B1C;
+}
+
+.clock_3{
+    margin: 50px;
+    margin-left: 25px;
+}
+
+.name_clock1{
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.name_clock2{
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 400px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.name_clock3{
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 700px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.new_colection{
+    background-image: url(/img/fon_blcok.png);
+    position: absolute;
+    width: 863px;
+    height: 730px;
+    left: 1040px;
+    top: 854px;
+    
+    background-repeat: no-repeat;
+}
+
+.text_new_col{
+    width: 374px;
+    height: 39px;
+    margin-top: 457px;
+    margin-left: 257px;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.colection_line{
+    position: absolute;
+    width: 120px;
+    height: 0;
+    border: 1px solid #ffffff;
+    margin-top:10px;
+    margin-left: 360px;
+}
+
+.rama{
+    width: 220px;
+    height: 60px;
+    border:1px solid #ffffff; 
+    margin-top: 35px;
+    margin-left: 310px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.button{
+    
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.rama:hover{
+    background: #191B1C;
+}
+
+
+.pfoto{
+    margin-top: 173px;
+    position: absolute;
+    width: 880px;
+    height: 600px;
+    left: 0px;
+    
+}
+
+
+.colection2018{
+    position: absolute;
+    width: 1023px;
+    height: 600px;
+    left: 880px;
+    top: 1583px;
+    background: #000000;
+
+}
+
+.old_colection{
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.old_colection_line{
+    width: 120px;
+    height: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 450px;
+    border: 1px solid #ffffff;
+}
+
+.old_text{
+    width: 471px;
+    height: 173px;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 285px;
+    font-weight: 21px;
+}
+
+.old_button{
+    padding-top: 20px;
+    width: 255px;
+    height: 59px;
+    position: absolute;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.Old_button{
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+}
+
